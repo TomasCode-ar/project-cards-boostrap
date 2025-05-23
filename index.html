@@ -12,10 +12,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Headland+One&display=swap" rel="stylesheet">
 </head>
 <style>
-    h1, h4 {
+    h1,
+    h4 {
         font-family: "Headland One", serif;
     }
 </style>
+
 <body>
     <div class="container">
         <div class="row">
@@ -95,9 +97,90 @@
             </div>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-        crossorigin="anonymous"></script>
+    <!--Nueva fila-->
+    <div class="container">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="card col-6">
+                        <div>
+                            <img src="assets/museo.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Museo</h5>
+                                <div class="text-center">
+                                    <button class="btn btn-info m-4" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal3">
+                                        Abrir Modal
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-6">
+                        <div>
+                            <img src="assets/barco.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Barco</h5>
+                                <div class="text-center">
+                                    <button class="btn btn-info m-4" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal4">
+                                        Abrir Modal
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Museo</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate labore cum magni
+                            dolores
+                            nobis possimus sint dicta autem reiciendis ex odio, totam consequatur ratione corporis
+                            libero
+                            aut odit tempora vero, ipsam id veritatis nihil.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Barco</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate dignissimos obcaecati
+                            odio,
+                            harum, possimus exercitationem illum quidem laboriosam tempora voluptatibus tempore. Quasi a
+                            saepe
+                            maxime voluptate unde? Sequi obcaecati saepe illo cupiditate voluptates sapiente sed ab
+                            voluptatum,
+                            aliquam quidem unde distinctio sint, error maiores consectetur eius quas voluptatem possimus
+                            velit?
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+                crossorigin="anonymous"></script>
 </body>
 
 </html>
